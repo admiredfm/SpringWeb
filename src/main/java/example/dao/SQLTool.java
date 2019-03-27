@@ -20,7 +20,7 @@ public class SQLTool {
 
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/databasetest", "root", "942678775");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/spring_web", "root", "942678775");
             return conn;
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

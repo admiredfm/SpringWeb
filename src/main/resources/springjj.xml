@@ -13,7 +13,7 @@
         <!--数据库驱动-->
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
         <!--链接数据库url-->
-        <property name="url" value="jdbc:mysql://localhost:3306/databasetest"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/spring_web"/>
         <!--连接数据库用户名-->
         <property name="username" value="root"/>
         <!--连接数据库密码-->
