@@ -16,6 +16,7 @@ public class TestMain {
         DynamicProxy dynamicProxy = new DynamicProxyImpl();
         DynamicProxy proxy = new DynamicProxyMain(dynamicProxy).getJdKmanProxy();
 
+        System.out.println("mmmm");
         proxy.fun();
 
 
