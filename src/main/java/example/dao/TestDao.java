@@ -48,7 +48,7 @@ public class TestDao implements Test1 {
     }
 
     public TestDao() {
-        System.out.println("无参构造方法执行了...");
+      //  System.out.println("无参构造方法执行了...");
     }
 
     public TestDao(int i) {

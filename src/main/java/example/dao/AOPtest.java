@@ -20,12 +20,12 @@ public class AOPtest {
     @Before("execution(* example.dao.*.*(..))")
     public void befor(JoinPoint joinPoint) {
 
-        System.out.println(joinPoint.getSignature().getName() + "前置通知执行了...");
+        System.out.println("前置通知...");
     }
 
     @AfterReturning(value = "execution(* example.dao.*.*(..))", returning = "result")
     public void after(Object result) {
-        System.out.println("后置通知..." + result);
+        System.out.println("后置通知...");
     }
 
     //环绕通知
@@ -33,7 +33,7 @@ public class AOPtest {
     //环绕通知类似于动态代理的全过程 ProceedingJoinPoint 类型的参数可以决定是否执行目标方法
     //且环绕通知必须有返回值，返回值即为目标方法的返回值。
 
-    @Around("execution(* example.dao.*.*(..))")
+    @Around("execution(* example.dao.*.k(..))")
     public Object Around(ProceedingJoinPoint proceedingJoinPoint) {
 
         //定义返回值
