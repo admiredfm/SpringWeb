@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="example.dao.Fly">
+    <select id="findFly" parameterType="String" resultType="example.dao.FlyId">
+        select * from aircraft where takeoff = #{ji}
+    </select>
+
+    <insert id="insertFly" parameterType="map">
+        insert
+    </insert>
+
+    <select id="sqlTest" parameterType="example.dao.FlyId" resultType="">
+
+    </select>
+
+
+
+
+</mapper>

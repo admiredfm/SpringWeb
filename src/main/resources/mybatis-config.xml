@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!--环境mysql-->
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/spring_web"/>
+                <property name="username" value="root"/>
+                <property name="password" value="942678775"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--声明映射地址-->
+    <mappers>
+        <mapper resource="mybatispackage/dao/classTable.xml"/>
+    </mappers>
+</configuration>

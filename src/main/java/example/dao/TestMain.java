@@ -15,6 +15,9 @@ public class TestMain {
         Test1 dao = (Test1) applicationContext.getBean("testDao");
         dao.say();
         dao.nihao();
+        MybatisTest mybatisTest = new MybatisTest();
+        mybatisTest.findFlyByName();
+        System.out.println(20170717 % 3);
 
 //        DynamicProxy dynamicProxy = new DynamicProxyImpl();
 //        DynamicProxy proxy = new DynamicProxyMain(dynamicProxy).getJdKmanProxy();

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mybatispackage.dao.findName">
+    <select id="findName" parameterType="mybatispackage.pojo.MyClass" resultType="mybatispackage.pojo.MyClass">
+      select * from classtable
+      <where>
+          <choose>
+              <when test="stuName != null and stuName != '' and teacherName != null and teacherName != ''">
+                  and stuName like concat('%',#{stuName},'%') and teacherName like concat('%',#{teacherName},'%')
+              </when>
+              <when test="stuName != null and stuName != ''">
+                  and stuName like concat('%',#{stuName},'%')
+              </when>
+              <when test="teacherName != null and teacherName != ''">
+                  and teacherName like concat('%',#{teacherName},'%')
+              </when>
+
+
+          </choose>
+      </where>
+    </select>
+</mapper>

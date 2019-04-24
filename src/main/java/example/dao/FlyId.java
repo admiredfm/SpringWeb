@@ -10,6 +10,16 @@ public class FlyId {
     private String aerodrome;
     private String flight;
 
+    @Override
+    public String toString() {
+        return "FlyId{" +
+                "id=" + id +
+                ", takeoff='" + takeoff + '\'' +
+                ", aerodrome='" + aerodrome + '\'' +
+                ", flight='" + flight + '\'' +
+                '}';
+    }
+
     public int getId() {
         return id;
     }

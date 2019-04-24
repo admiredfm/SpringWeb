@@ -16,5 +16,6 @@ public interface Fly {
      */
     String inquire(String a,String b);
 
+    FlyId findFly(String jichang);
 
 }

@@ -1,12 +1,28 @@
 package example.dao;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.jdbc.core.BeanPropertyRowMapper;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
+
 import java.sql.*;
 
 /**
  * @author 受人敬仰的Fm
  * @date 2019/3/11
+ * 连接数据库
  */
 public class FlyImpl implements Fly {
+
+//    public String jichang(){
+//        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("springjj.xml");
+//        JdbcTemplate jdbcTemplate = (JdbcTemplate) applicationContext.getBean("jdbcTemplate");
+//        String sql = "select flight from aircraft where takeoff = ? and aerodrome = ?";
+//        RowMapper<T> rowMapper = new BeanPropertyRowMapper<>()
+//        jdbcTemplate.query(sql)
+//        return null;
+//    }
 
     @Override
     public String inquire(String a, String b) {
@@ -42,5 +58,10 @@ public class FlyImpl implements Fly {
         }
 
         return "无";
+    }
+
+    @Override
+    public FlyId findFly(String jichang) {
+        return null;
     }
 }

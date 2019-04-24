@@ -1,0 +1,204 @@
+2019-04-24 21:58:37 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-24 21:58:37 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 21:58:37 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 21:58:37 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 21:58:37 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 21:59:48 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-24 21:59:48 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 21:59:48 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 21:59:48 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 21:59:48 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:00:00 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-24 22:00:00 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:00:00 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:00:00 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:00:00 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:00:35 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-24 22:00:36 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:00:36 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:00:36 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:00:36 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:02:55 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-24 22:02:56 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:02:56 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:02:56 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:02:56 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:05:00 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-24 22:05:00 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:05:00 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:05:00 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:05:00 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:07:40 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-24 22:07:40 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:07:40 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:07:40 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:07:40 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:07:41 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2019-04-24 22:07:41 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:406) ]
+DEBUG:Created connection 1276261147.
+2019-04-24 22:07:41 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4c12331b]
+2019-04-24 22:07:41 下午 [Thread: main][ Class:mybatispackage.dao.findName.findName >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==>  Preparing: select * from classTable WHERE teacherName like concat('%',?,'%') 
+2019-04-24 22:07:41 下午 [Thread: main][ Class:mybatispackage.dao.findName.findName >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==> Parameters: 王(String)
+2019-04-24 22:07:41 下午 [Thread: Finalizer][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:09:29 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-24 22:09:29 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:09:29 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:09:29 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:09:29 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:09:30 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2019-04-24 22:09:30 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:406) ]
+DEBUG:Created connection 1276261147.
+2019-04-24 22:09:30 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4c12331b]
+2019-04-24 22:09:30 下午 [Thread: main][ Class:mybatispackage.dao.findName.findName >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==>  Preparing: select * from classtable WHERE teacherName like concat('%',?,'%') 
+2019-04-24 22:09:30 下午 [Thread: main][ Class:mybatispackage.dao.findName.findName >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==> Parameters: 王(String)
+2019-04-24 22:09:30 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4c12331b]
+2019-04-24 22:09:30 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4c12331b]
+2019-04-24 22:09:30 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:363) ]
+DEBUG:Returned connection 1276261147 to pool.
+2019-04-24 22:10:27 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-24 22:10:27 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:10:27 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:10:27 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:10:27 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:11:27 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-24 22:11:27 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:11:27 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:11:27 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:11:27 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:11:28 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2019-04-24 22:11:28 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:406) ]
+DEBUG:Created connection 132577100.
+2019-04-24 22:11:28 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7e6f74c]
+2019-04-24 22:11:28 下午 [Thread: main][ Class:mybatispackage.dao.findName.findName >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==>  Preparing: select * from classtable WHERE teacherName like concat('%',?,'%') 
+2019-04-24 22:11:28 下午 [Thread: main][ Class:mybatispackage.dao.findName.findName >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==> Parameters: 王(String)
+2019-04-24 22:11:28 下午 [Thread: main][ Class:mybatispackage.dao.findName.findName >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:<==      Total: 4
+2019-04-24 22:11:28 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7e6f74c]
+2019-04-24 22:11:28 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7e6f74c]
+2019-04-24 22:11:28 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:363) ]
+DEBUG:Returned connection 132577100 to pool.
+2019-04-24 22:14:54 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-24 22:14:54 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:14:54 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:14:54 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:14:54 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:15:39 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-24 22:15:40 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:15:40 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:15:40 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:15:40 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:16:03 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-24 22:16:03 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:16:03 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:16:03 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:16:03 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:19:27 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-24 22:19:27 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:19:27 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:19:27 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:19:27 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2019-04-24 22:19:28 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2019-04-24 22:19:28 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:406) ]
+DEBUG:Created connection 132577100.
+2019-04-24 22:19:28 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7e6f74c]
+2019-04-24 22:19:28 下午 [Thread: main][ Class:mybatispackage.dao.findName.findName >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==>  Preparing: select * from classtable WHERE teacherName like concat('%',?,'%') 
+2019-04-24 22:19:28 下午 [Thread: main][ Class:mybatispackage.dao.findName.findName >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==> Parameters: 王(String)
+2019-04-24 22:19:28 下午 [Thread: main][ Class:mybatispackage.dao.findName.findName >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:<==      Total: 4
+2019-04-24 22:19:28 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7e6f74c]
+2019-04-24 22:19:28 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7e6f74c]
+2019-04-24 22:19:28 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:363) ]
+DEBUG:Returned connection 132577100 to pool.
