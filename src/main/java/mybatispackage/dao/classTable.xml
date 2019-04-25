@@ -15,8 +15,12 @@
                   and teacherName like concat('%',#{teacherName},'%')
               </when>
 
-
           </choose>
       </where>
     </select>
+
+    <select id="findCount" resultType="int">
+        select count(*) from classtable
+    </select>
+
 </mapper>

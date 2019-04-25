@@ -7,7 +7,7 @@
 
     <context:component-scan base-package="example.dao"/>
     <context:component-scan base-package="mybatispackage"/>
-    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+    <aop:aspectj-autoproxy/>
 
     <!--配置数据源-->
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">

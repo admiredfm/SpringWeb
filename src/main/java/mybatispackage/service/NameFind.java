@@ -30,15 +30,36 @@ public class NameFind {
         myClass.setStuName(stuName);
         myClass.setTeacherName(teacherName);
 
+
         //执行sql语句并返回结果
         List<MyClass> list = sqlSession.selectList("mybatispackage.dao.findName.findName", myClass);
        // Cursor<MyClass> cursor = sqlSession.selectCursor("mybatispackage.dao.findName.findName", myClass);
-
 
         sqlSession.close();
 
         return list;
 
+    }
+
+    /**
+     * 查询表中所有数据数量
+     * @return 数据总量
+     * @throws IOException
+     */
+    public int findCount() throws IOException {
+
+        //读取配置文件
+        InputStream inputStream = Resources.getResourceAsStream("mybatis-config.xml");
+
+        //构建sqlsessionFactory
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+
+        //创建sqlsession
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        int one = sqlSession.selectOne("mybatispackage.dao.findName.findCount");
+
+        return one;
     }
 
     @Test

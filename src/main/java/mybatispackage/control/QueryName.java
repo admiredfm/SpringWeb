@@ -14,17 +14,26 @@ import java.io.IOException;
 public class QueryName {
 
     @RequestMapping("/")
-    public String test(){
+    public String test(Model model) throws IOException {
+        NameFind nameFind = new NameFind();
+
+        int count = nameFind.findCount();
+        model.addAttribute("cont",count);
 
         return "stuOrTeacher";
     }
 
     @RequestMapping("/findname")
     public String find(Model model, @RequestParam String line,String stuname,String teachername) throws IOException {
+
+
         NameFind nameFind = new NameFind();
+
         model.addAttribute("list",nameFind.findName(stuname,teachername));
         model.addAttribute("stuname",stuname);
         model.addAttribute("teachername",teachername);
+        model.addAttribute("line",line);
+
         return "stuOrTeacher";
     }
 
