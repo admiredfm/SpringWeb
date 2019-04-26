@@ -1,6 +1,8 @@
 package mybatispackage.service;
 
+import mybatispackage.dao.FindName;
 import mybatispackage.pojo.MyClass;
+import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -12,28 +14,30 @@ import java.io.InputStream;
 import java.util.List;
 
 
-
 public class NameFind {
 
-    public List<MyClass> findName(String stuName,String teacherName) throws IOException {
+    //读取配置文件
+    private InputStream inputStream;
 
-        //读取配置文件
-        InputStream inputStream = Resources.getResourceAsStream("mybatis-config.xml");
+    //构建sqlSessionFactory
+    private SqlSessionFactory sqlSessionFactory;
 
-        //构建sqlsessionFactory
-        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 
-        //创建sqlsession
+    public NameFind() throws IOException {
+        inputStream = Resources.getResourceAsStream("mybatis-config.xml");
+        sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+    }
+
+
+    public List<MyClass> findName(String stuName, String teacherName, int start, int end) throws IOException {
+
+
+        //创建sqlSession
         SqlSession sqlSession = sqlSessionFactory.openSession();
 
-        MyClass myClass = new MyClass();
-        myClass.setStuName(stuName);
-        myClass.setTeacherName(teacherName);
+        FindName mapper = sqlSession.getMapper(FindName.class);
 
-
-        //执行sql语句并返回结果
-        List<MyClass> list = sqlSession.selectList("mybatispackage.dao.findName.findName", myClass);
-       // Cursor<MyClass> cursor = sqlSession.selectCursor("mybatispackage.dao.findName.findName", myClass);
+        List<MyClass> list = mapper.findName(stuName,teacherName, start, end);
 
         sqlSession.close();
 
@@ -43,28 +47,34 @@ public class NameFind {
 
     /**
      * 查询表中所有数据数量
+     *
      * @return 数据总量
      * @throws IOException
      */
-    public int findCount() throws IOException {
+    public int findCount(String sname,String tname) throws IOException {
 
-        //读取配置文件
-        InputStream inputStream = Resources.getResourceAsStream("mybatis-config.xml");
 
-        //构建sqlsessionFactory
-        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-
-        //创建sqlsession
+        //创建sqlSession
         SqlSession sqlSession = sqlSessionFactory.openSession();
 
-        int one = sqlSession.selectOne("mybatispackage.dao.findName.findCount");
+        FindName mapper = sqlSession.getMapper(FindName.class);
 
-        return one;
+        int count = mapper.findCount(sname,tname);
+
+        sqlSession.close();
+
+        return count;
+
     }
 
     @Test
     public void test() throws IOException {
-        List<MyClass> cursor = findName("", "王");
-        System.out.println(cursor.size());
+        List<MyClass> name = findName("刘", "王", 0, 4);
+        System.out.println(name.size());
+    }
+
+    @Test
+    public void testFindCount() throws IOException {
+       // findCount();
     }
 }

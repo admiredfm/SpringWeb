@@ -20,5 +20,6 @@
     <!--声明映射地址-->
     <mappers>
         <mapper resource="mybatispackage/dao/classTable.xml"/>
+        <package name="mybatispackage.dao.FindName"/>
     </mappers>
 </configuration>
