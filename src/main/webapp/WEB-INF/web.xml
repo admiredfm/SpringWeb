@@ -19,7 +19,9 @@
             <param-name>contextConfigLocation</param-name>
             <param-value>/WEB-INF/dispatcher-servlet.xml</param-value>
         </init-param>
+        <!--表示在容器加载时立即加载servlet -->
         <load-on-startup>1</load-on-startup>
+
         <async-supported>true</async-supported>
     </servlet>
     <servlet-mapping>

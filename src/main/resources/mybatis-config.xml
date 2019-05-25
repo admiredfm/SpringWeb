@@ -4,6 +4,13 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 
 <configuration>
+    <settings>
+        <!--打开延迟加载的开关 -->
+        <setting name="lazyLoadingEnabled" value="true"/>
+
+        <!--将积极加载改为延迟加载 -->
+        <setting name="aggressiveLazyLoading" value="false"/>
+    </settings>
     <!--环境mysql-->
     <environments default="mysql">
         <environment id="mysql">

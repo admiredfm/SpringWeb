@@ -40,4 +40,11 @@
         </where>
     </select>
 
+    <!--<resultMap id="" type="">-->
+       <!--<collection property="orderList" ofType="Orders">-->
+           <!--<id property="id" column="id"/>-->
+           <!--<result property="number" column="number"/>-->
+       <!--</collection>-->
+    <!--</resultMap>-->
+
 </mapper>
